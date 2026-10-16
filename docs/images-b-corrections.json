@@ -1,0 +1,21 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": [
+    {
+      "file": "mock-desicao-fr.png correction",
+      "prompt": "Precise text-only correction. Preserve absolutely everything in this exact supplied French three-page flowchart image: all page positions, text, branches, colors, line breaks, grid, transparency. Change ONLY TWO map reference numbers: (1) LEFT PAGE third column bottom reference box currently says CARTE 104 - ÉPUISEMENT PROFESSIONNEL; change its 104 to 101, resulting CARTE 101 - ÉPUISEMENT PROFESSIONNEL. Keep the 104 for LIMITES AU TRAVAIL in adjacent second column unchanged! (2) CENTER PAGE third column bottom reference box currently says CARTE 85 - HYPERVIGILANCE; change 85 to 05, resulting CARTE 05 - HYPERVIGILANCE. Keep ALL other text/numbers identical. No new objects, no redesign. Actual alpha background.",
+      "output_hint": "Generated images are saved to C:\\Users\\David\\.codex\\generated_images\\01a141c1-2755-7043-88c2-0b42d5f10118 as C:\\Users\\David\\.codex\\generated_images\\01a141c1-2755-7043-88c2-0b42d5f10118\\exec-b225e96d-1e53-4f54-9705-4c7fc6e1f2c4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "file": "indice-fr.png correction",
+      "prompt": "Precise text-only correction of supplied French two-page index image. Preserve absolutely everything else: pages positions, colors, headings, entries, numbers, letter groups, rules, shadows and transparency. Change ONLY TWO SMALL TEXT LINES on left page. (1) Intro immediately below large OÙ TROUVER CHAQUE THÈME title must exactly read: « 120 cartes à retrouver par thème. Le numéro indique la carte ; le domaine figure à côté. » It must NOT contain 'ordre alphabétique'. (2) Footer at bottom of LEFT page must exactly read: « Le numéro renvoie à la carte ; A1 à A12 indiquent les domaines. La liste complète des 12 domaines figure au début de l’Atlas. » Set this footer over two lines if needed. Keep ALL other text and layout identical; especially don't alphabetize entries, change topic names or alter right page. Actual alpha transparency outside papers.",
+      "output_hint": "Generated images are saved to C:\\Users\\David\\.codex\\generated_images\\01a141c1-2755-7043-88c2-0b42d5f10118 as C:\\Users\\David\\.codex\\generated_images\\01a141c1-2755-7043-88c2-0b42d5f10118\\exec-89f14645-fab3-4a25-83a7-b30c3866ca9a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "qaNotes": [
+    "Flowchart burnout corrected to101, hypervigilance corrected to05; visually verified.",
+    "Index intro and footer corrected removing alphabetical claim; source letter groups preserved at root request.",
+    "Tablet one-sign caution corrected with negation; visually verified.",
+    "Fine text remains AI-localized; compare to actual delivered French product before clinical/product accuracy claims."
+  ]
+}

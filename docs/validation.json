@@ -1,0 +1,43 @@
+{
+  "local_resources_http_200": [
+    "app.js",
+    "assets/anatomias-fr.webp",
+    "assets/anatomias-mock-fr.webp",
+    "assets/documentos-fr.webp",
+    "assets/fluxogramas-fr.webp",
+    "assets/indice-fr.webp",
+    "assets/local.css",
+    "assets/mapa-detalhado-fr.webp",
+    "assets/mapas-abordagens-fr.webp",
+    "assets/mock-desicao-fr.webp",
+    "assets/mock-mapas-fr.webp",
+    "assets/mock-regua-fr.webp",
+    "assets/mock-tabela-fr.webp",
+    "assets/mockup-geral-fr.webp",
+    "assets/mockup-mapas-fr.webp",
+    "assets/mockup-principal-fr.webp",
+    "assets/mockup-regua-fr.webp",
+    "assets/pagina-burnout-fr.webp",
+    "assets/pagina-impostor-fr.webp",
+    "assets/pagina-rumination-fr.webp",
+    "assets/pagina-self-sabotage-fr.webp",
+    "assets/selo-garantia-fr.webp",
+    "config.js"
+  ],
+  "webp_images": 20,
+  "image_bytes_before": 42964456,
+  "image_bytes_after": 7248216,
+  "reduction_percent": 83.1,
+  "responsive_widths_checked": [
+    320,
+    360,
+    375,
+    390,
+    428,
+    1265
+  ],
+  "horizontal_overflow": false,
+  "checkout": "https://pay.hotmart.com/G108050774O?checkoutMode=10; verified on all three browser CTAs",
+  "pixel": "2141962266672792; consent required; local simulated event tests passed",
+  "purchase_delivery_pixel_receipt": "not tested on external services"
+}

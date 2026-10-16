@@ -1,0 +1,182 @@
+[
+  {
+    "source": "anatomias-fr.png",
+    "webp": "anatomias-fr.webp",
+    "before": 2226908,
+    "after": 340006,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "anatomias-mock-fr.png",
+    "webp": "anatomias-mock-fr.webp",
+    "before": 2415244,
+    "after": 450472,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "documentos-fr.png",
+    "webp": "documentos-fr.webp",
+    "before": 1871682,
+    "after": 339766,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "fluxogramas-fr.png",
+    "webp": "fluxogramas-fr.webp",
+    "before": 1815148,
+    "after": 282696,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "indice-fr.png",
+    "webp": "indice-fr.webp",
+    "before": 1954444,
+    "after": 287354,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mapa-detalhado-fr.png",
+    "webp": "mapa-detalhado-fr.webp",
+    "before": 1687254,
+    "after": 319492,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mapas-abordagens-fr.png",
+    "webp": "mapas-abordagens-fr.webp",
+    "before": 2191331,
+    "after": 337740,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mock-desicao-fr.png",
+    "webp": "mock-desicao-fr.webp",
+    "before": 2117827,
+    "after": 326604,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mock-mapas-fr.png",
+    "webp": "mock-mapas-fr.webp",
+    "before": 2371433,
+    "after": 425548,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mock-regua-fr.png",
+    "webp": "mock-regua-fr.webp",
+    "before": 1741483,
+    "after": 251656,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mock-tabela-fr.png",
+    "webp": "mock-tabela-fr.webp",
+    "before": 2249679,
+    "after": 356244,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mockup-geral-fr.png",
+    "webp": "mockup-geral-fr.webp",
+    "before": 2741801,
+    "after": 500506,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mockup-mapas-fr.png",
+    "webp": "mockup-mapas-fr.webp",
+    "before": 2495031,
+    "after": 509200,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mockup-principal-fr.png",
+    "webp": "mockup-principal-fr.webp",
+    "before": 2580752,
+    "after": 479458,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "mockup-regua-fr.png",
+    "webp": "mockup-regua-fr.webp",
+    "before": 1786687,
+    "after": 299668,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "pagina-burnout-fr.png",
+    "webp": "pagina-burnout-fr.webp",
+    "before": 1973591,
+    "after": 275514,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "pagina-impostor-fr.png",
+    "webp": "pagina-impostor-fr.webp",
+    "before": 2062862,
+    "after": 286034,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "pagina-rumination-fr.png",
+    "webp": "pagina-rumination-fr.webp",
+    "before": 2850310,
+    "after": 667642,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "pagina-self-sabotage-fr.png",
+    "webp": "pagina-self-sabotage-fr.webp",
+    "before": 2025788,
+    "after": 292186,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  },
+  {
+    "source": "selo-garantia-fr.png",
+    "webp": "selo-garantia-fr.webp",
+    "before": 1805201,
+    "after": 220430,
+    "same_dimensions": true,
+    "same_alpha": true,
+    "quality": 88
+  }
+]
