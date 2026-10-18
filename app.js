@@ -43,23 +43,22 @@
   }
   var pixelId = String(config.metaPixelId || '');
   if(!/^\d{8,20}$/.test(pixelId)) return;
-  var banner = document.getElementById('tracking-consent');
-  var consent = null;
-  try { consent=localStorage.getItem('atlas-advertising-consent'); } catch (_) {}
-  function startPixel(){
-    advertisingAllowed=true;
-    if(window.fbq){window.fbq('consent','grant');return;}
-    var q=window.fbq=function(){q.callMethod?q.callMethod.apply(q,arguments):q.queue.push(arguments);};
-    window._fbq=q;q.push=q;q.loaded=true;q.version='2.0';q.queue=[];
-    var script=document.createElement('script');script.async=true;script.src='https://connect.facebook.net/en_US/fbevents.js';document.head.appendChild(script);
-    q('init',pixelId);q('track','PageView');q('track','ViewContent',{currency:'EUR',value:10,content_name:'Visual Therapy Atlas'});
-  }
-  if(consent==='yes')startPixel();else if(consent===null)banner.hidden=false;
-  banner.querySelectorAll('[data-consent]').forEach(function(button){button.addEventListener('click',function(){
-    var accepted=button.dataset.consent;
-    try{localStorage.setItem('atlas-advertising-consent',accepted);}catch(_){}
-    banner.hidden=true;if(accepted==='yes')startPixel();else {advertisingAllowed=false;if(window.fbq)window.fbq('consent','revoke');}
-  });});
-  var settings=document.createElement('button');settings.type='button';settings.className='tracking-settings';settings.textContent='Gestion des cookies';
-  settings.addEventListener('click',function(){banner.hidden=false;});document.querySelector('footer').appendChild(settings);
+  // Banner removed at the owner's explicit request.
+  // Keep an existing refusal effective; removing the UI does not revoke that choice.
+  var previousChoice = null;
+  try { previousChoice = localStorage.getItem('atlas-advertising-consent'); } catch (_) {}
+  if (previousChoice === 'no') return;
+  if (window.fbq) return;
+  advertisingAllowed = true;
+  var q = window.fbq = function () {
+    q.callMethod ? q.callMethod.apply(q, arguments) : q.queue.push(arguments);
+  };
+  window._fbq = q; q.push = q; q.loaded = true; q.version = '2.0'; q.queue = [];
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://connect.facebook.net/en_US/fbevents.js';
+  document.head.appendChild(script);
+  q('init', pixelId);
+  q('track', 'PageView');
+  q('track', 'ViewContent', { currency: 'EUR', value: 10, content_name: 'Visual Therapy Atlas' });
 })();
