@@ -62,3 +62,69 @@
   q('track', 'PageView');
   q('track', 'ViewContent', { currency: 'EUR', value: 10, content_name: 'Visual Therapy Atlas' });
 })();
+
+// Vercel Speed Insights initialization
+(function() {
+  'use strict';
+  
+  // Initialize queue for Speed Insights
+  function initQueue() {
+    if (window.si) return;
+    window.si = function a() {
+      window.siq = window.siq || [];
+      window.siq.push(Array.prototype.slice.call(arguments));
+    };
+  }
+  
+  function isBrowser() {
+    return typeof window !== 'undefined';
+  }
+  
+  function isDevelopment() {
+    try {
+      return false; // Always treat as production for static sites
+    } catch (e) {
+      return false;
+    }
+  }
+  
+  function getScriptSrc() {
+    // For Vercel deployments, use the standard path
+    return '/_vercel/speed-insights/script.js';
+  }
+  
+  function injectSpeedInsights() {
+    if (!isBrowser()) return null;
+    
+    initQueue();
+    
+    var src = getScriptSrc();
+    var name = '@vercel/speed-insights';
+    var version = '2.0.0';
+    
+    // Check if script is already loaded
+    if (document.head.querySelector('script[src*="' + src + '"]')) return null;
+    
+    // Create and configure script element
+    var script = document.createElement('script');
+    script.src = src;
+    script.defer = true;
+    script.dataset.sdkn = name;
+    script.dataset.sdkv = version;
+    
+    script.onerror = function() {
+      console.log('[Vercel Speed Insights] Failed to load script from ' + src + '. Please check if any content blockers are enabled and try again.');
+    };
+    
+    document.head.appendChild(script);
+    
+    return {
+      setRoute: function(route) {
+        script.dataset.route = route || undefined;
+      }
+    };
+  }
+  
+  // Initialize Speed Insights
+  injectSpeedInsights();
+})();
